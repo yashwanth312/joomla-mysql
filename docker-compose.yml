@@ -1,0 +1,22 @@
+version: '3.1'
+services:
+        joomlaos:
+                image: joomla
+                ports:
+                        - 1234:80
+                restart: always
+                environment:
+                        JOOMLA_DB_HOST: mysqlos
+                        JOOMLA_DB_PASSWORD: yash
+                depends_on:
+                        - mysqlos
+
+        mysqlos:
+                image: mysql:5.6
+                restart: always
+                environment:
+                        MYSQL_ROOT_PASSWORD: yash
+                        MYSQL_USER: Yashwanth
+                        MYSQL_PASSWORD: Yashwanth@3
+                        MYSQL_DATABASE: mydatabase
+

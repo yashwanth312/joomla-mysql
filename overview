@@ -1,0 +1,13 @@
+The JOOMLA is a 100% and free open source content management system for publishing web content.
+
+
+JOOMLA is written in the PHP language and uses object-oriented programming techniques and software design patterns. In this process I've used the MYSQL version 5.6 as the database.
+
+
+
+
+For installing the JOOMLA from this repository you should ne knowing:
+
+
+1. DATABASE HOST NAME = mydb
+2. DATABASE PASSWORD = yash
